@@ -1,2 +1,23 @@
-# An-lise-de-Emiss-es-de-CO-com-foco-ambiental-e-transi-o-energ-tica
-Projeto de análise de dados ambientais com dados do Our World in Data. Utilizei Python para tratamento e Power BI para dashboard interativo, analisando emissões de CO₂, per capita e intensidade de carbono, com foco em tendências, comparação entre países e relação entre economia e emissões.
+# Análise de Dados Ambientais – Emissões de CO₂ e Energia
+
+Este projeto analisa dados ambientais com foco em **emissões de CO₂**, emissões per capita, **intensidade de carbono** e indicadores energéticos em diferentes países, utilizando dados públicos do [Our World in Data (OWID)](https://ourworldindata.org/).
+
+## Objetivos
+
+- Analisar a **evolução das emissões de CO₂** em países selecionados  
+- Comparar **emissões totais x emissões per capita**  
+- Investigar possíveis sinais de **desacoplamento** entre crescimento econômico e emissões  
+- Avaliar como **variáveis energéticas** ajudam a interpretar o comportamento das emissões
+
+## Tecnologias utilizadas
+
+- **Python** (tratamento, exploração e preparação dos dados)
+- **Pandas / NumPy / Matplotlib ou Seaborn** (ajuste conforme o que você usou)
+- **Power BI** (dashboard interativo para visualização dos resultados)
+
+## Estrutura do projeto
+
+- `/data` – arquivos de dados (ou link para a fonte OWID, se não versionar os dados)
+- `/notebooks` – notebooks Python com análise e preparação dos dados
+- `/dashboard` – arquivo `.pbix` do Power BI (se estiver incluído)
+- `README.md` – descrição geral do projeto
